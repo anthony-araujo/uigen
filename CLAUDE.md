@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Code Style
+
+- Use comments sparingly. Only comment complex code.
+
 ## Commands
 
 ```bash
@@ -58,9 +62,7 @@ Session-based auth using JWTs (jose). Passwords hashed with bcrypt. `src/middlew
 
 ### Database
 
-Prisma with SQLite (`prisma/dev.db`). Two models:
-- `User` — email + hashed password
-- `Project` — stores `messages` (JSON conversation history) and `data` (serialized `VirtualFileSystem`)
+Prisma with SQLite (`prisma/dev.db`). See `prisma/schema.prisma` for the current data models.
 
 ### State management
 

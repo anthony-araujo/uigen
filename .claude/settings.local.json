@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start:*)",
+      "mcp__playwright"
+    ]
+  }
+}
